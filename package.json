@@ -1,0 +1,27 @@
+{
+  "name": "lab-babel",
+  "version": "1.0.0",
+  "description": "a transform for lab to allow testing babel transpiled modules, with coverage and source maps",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nlf/lab-babel.git"
+  },
+  "keywords": [
+    "lab",
+    "babel",
+    "coverage",
+    "test"
+  ],
+  "author": "Nathan LaFreniere <quitlahok@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nlf/lab-babel/issues"
+  },
+  "homepage": "https://github.com/nlf/lab-babel",
+  "dependencies": {
+    "babel": "^4.7.12",
+    "source-map": "^0.4.2"
+  }
+}
