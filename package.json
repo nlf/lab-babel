@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/nlf/lab-babel",
   "dependencies": {
-    "babel": "^4.7.12",
     "source-map": "^0.4.2"
+  },
+  "peerDependencies": {
+    "babel-core": ">=4.x.x"
   }
 }
