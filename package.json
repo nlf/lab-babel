@@ -1,6 +1,6 @@
 {
   "name": "lab-babel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a transform for lab to allow testing babel transpiled modules, with coverage and source maps",
   "main": "index.js",
   "scripts": {},
