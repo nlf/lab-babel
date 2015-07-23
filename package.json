@@ -20,9 +20,6 @@
     "url": "https://github.com/nlf/lab-babel/issues"
   },
   "homepage": "https://github.com/nlf/lab-babel",
-  "dependencies": {
-    "source-map": "^0.4.2"
-  },
   "peerDependencies": {
     "babel-core": ">=4.x.x"
   }
