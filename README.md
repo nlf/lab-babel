@@ -22,5 +22,5 @@ For Babel versions greather than 6, please install [`babel-preset-es2015`](https
 ```
 (this could be added to the `babel` section of yor `package.json`, as described by the [`.babelrc`](https://babeljs.io/docs/usage/babelrc/#use-via-package-json) documentation)
 
-Note that `__core-js_shared__` should will be detected as a leak, then you should ignore it by
+Note that `__core-js_shared__` might be detected as a leak, but you can ignore it by
 declaring it as global with `--globals __core-js_shared__` (or `-I __core-js_shared__`)
