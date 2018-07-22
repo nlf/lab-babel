@@ -13,14 +13,14 @@ Any module (that is *not* in `node_modules`) required via your tests with an ext
 
 For more information on writing tests in lab, see the [README](https://github.com/hapijs/lab).
 
-### Babel >= 6
-For Babel versions greather than 6, please install [`babel-preset-es2015`](https://www.npmjs.com/package/babel-preset-es2015) add the following to your [`.babelrc`](https://babeljs.io/docs/usage/babelrc/):
-```
-{
-  "presets": ["es2015"]
-}
-```
-(this could be added to the `babel` section of yor `package.json`, as described by the [`.babelrc`](https://babeljs.io/docs/usage/babelrc/#use-via-package-json) documentation)
+### Babel
+
+For Babel 6.x, please install [`babel-preset-env`](https://www.npmjs.com/package/babel-preset-env) and modify your [`.babelrc`](https://babeljs.io/docs/usage/babelrc/) or [`package.json`](https://babeljs.io/docs/usage/babelrc/#use-via-package-json) accordingly.
+
+For Babel >= 7, you'll need to install [scoped packages](https://babeljs.io/docs/en/next/v7-migration#scoped-packages) and configure Babel to use them instead.
+
+
+### Global variable leak
 
 Note that `__core-js_shared__` might be detected as a leak, but you can ignore it by
 declaring it as global with `--globals __core-js_shared__` (or `-I __core-js_shared__`)
