@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/nlf/lab-babel",
   "peerDependencies": {
-    "babel-core": ">=4.x.x"
+    "@babel/core": ">=7.x.x"
   }
 }

@@ -14,10 +14,10 @@ Any module (that is *not* in `node_modules`) required via your tests with an ext
 For more information on writing tests in lab, see the [README](https://github.com/hapijs/lab).
 
 ### Babel >= 6
-For Babel versions greather than 6, please install [`babel-preset-es2015`](https://www.npmjs.com/package/babel-preset-es2015) add the following to your [`.babelrc`](https://babeljs.io/docs/usage/babelrc/):
+For Babel versions greather than 6, you can install [`babel-preset-env`](https://www.npmjs.com/package/babel-preset-env) add the following to your [`.babelrc`](https://babeljs.io/docs/usage/babelrc/):
 ```
 {
-  "presets": ["es2015"]
+  "presets": ["env"]
 }
 ```
 (this could be added to the `babel` section of yor `package.json`, as described by the [`.babelrc`](https://babeljs.io/docs/usage/babelrc/#use-via-package-json) documentation)
